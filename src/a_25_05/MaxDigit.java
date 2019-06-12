@@ -28,6 +28,7 @@ public class MaxDigit {
 
         int max= 0;//Tuturor variabilelor trebuie să li se atribuie o valoare.
         // Mi-a luat ceva să-mi dau seama că e ok să le pun 0 :)).
+        // :P Am zis la curs ca variabilele locale nu au valoare initiala
         for (int i=1; i<x; i++){
             int b=n%10;
             if (b>max) {max=b;}
