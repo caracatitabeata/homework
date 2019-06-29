@@ -34,5 +34,18 @@ public class Calculator7 {
                 }
             }
 
+            //functioneaza si cum ai facut tu, dar in mod normal se foloseste else-if
+            if (operation.equals("+")) {
+                System.out.println(n1 + " + " + n2 + " = " + (n1 + n2));
+            } else if (operation.equals("-")) {
+                System.out.println(n1 + " - " + n2 + " = " + (n1 - n2));
+            } else if (operation.equals("*")) {
+                System.out.println(n1 + " * " + n2 + " = " + (n1 * n2));
+            } else if (operation.equals("/")) {
+                System.out.println(n1 + " / " + n2 + " = " + (n1 / n2));
+            } else {
+                System.out.println("Bad operation sucker!");
+            }
+
         }
     }
