@@ -1,0 +1,1 @@
+Aici pui resurse ale aplicatiei: config files, properties, etc
